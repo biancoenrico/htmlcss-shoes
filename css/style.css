@@ -1,3 +1,4 @@
+/*reset*/
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +9,8 @@
     height: 100vh;
     position: relative;
 }
+
+/*img modeling*/
 img,span{
     height: 40vh;
     position: absolute;
@@ -17,12 +20,15 @@ img,span{
     cursor: pointer;;
 }
 
+/*text modeling*/
 h2{
     position: relative;
     top: 100%;
     font-size: 8vh;
     text-align: center;
 }
+
+/*main color*/
 .green{
     background-color: green;
 }
