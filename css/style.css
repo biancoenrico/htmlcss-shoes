@@ -15,7 +15,11 @@ header{
     right: 0;
 
 }
-
+ul{
+    position: fixed;
+    right: 0%;
+    z-index: 12;
+}
 .circle{
     margin: 1vh;
     border-radius: 50%;
