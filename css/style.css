@@ -17,6 +17,7 @@ header{
 }
 
 .circle{
+    margin: 2vh;
     border-radius: 33vh;
     height: 6vh;
     width: 6vh;
