@@ -9,6 +9,29 @@
     height: 100vh;
     position: relative;
 }
+/*number cicle*/
+header{
+    position: absolute;
+    right: 0;
+
+}
+
+.circle{
+    border-radius: 33vh;
+    height: 6vh;
+    width: 6vh;
+    position: relative;
+    background-color: beige;
+    display: inline-block;
+    text-align: center;
+    font-size: 3vh;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.circle:hover{
+    box-shadow: 5px 5px 5px black;
+}
 
 /*img modeling*/
 img,span{
@@ -17,7 +40,7 @@ img,span{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    cursor: pointer;;
+    cursor: pointer;
 }
 
 /*text modeling*/
