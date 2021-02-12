@@ -31,6 +31,11 @@ header{
     z-index: 10;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .circle:hover{
     box-shadow: 5px 5px 5px black;
 }
